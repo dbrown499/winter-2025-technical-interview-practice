@@ -6,6 +6,8 @@
 
 What's better a hash table or an array? Explain.
 
+Both have its individual perks but I would say hash tables. Only because the time complexity can be way quicker when selecting an element instead of looping through an entire array.
+
 ## Lecture Content (20 minutes)
 
 Dive deeper into hash table operations and performance tuning:
