@@ -10,6 +10,27 @@
  * @param {string} s
  * @return {boolean}
  */
-function isValid(s) {}
+function isValid(s) {
+    const stack = [];
+    
+    for (let char of s) {
+        if (char === '(') {
+            stack.push(char);
+        } else {
+            if (stack.length === 0) {
+                return false;
+            }
+            stack.pop();
+        }
+    }
+    
+    return stack.length === 0;
+
+}
+console.log(isValid("(', ')")); //
+console.log(isValid("()")); //true
+console.log(isValid("()(())")); //true
+console.log(isValid("())")); //false
+console.log(isValid("()(()")); //false
 
 module.exports = isValid;
