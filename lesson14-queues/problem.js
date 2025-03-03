@@ -14,15 +14,33 @@ class Queue {
     this.items = [];
   }
 
-  enqueue(element) {}
+  enqueue(element) {
+    return this.items.push(element);
+  }
 
-  dequeue() {}
+  dequeue() {
+    return this.items.length > 0 ? this.items.shift() : null;
+  }
 
-  peek() {}
+  peek() {
+    return this.items.length > 0 ? this.items[0] : null;
+  }
 
-  isEmpty() {}
+  isEmpty() {
+    return this.items.length === 0 ? true : false;
+  }
 
-  size() {}
+  size() {
+    return this.items.length;
+
+  }
 }
+
+const newQueue = new Queue();
+newQueue.enqueue("hi");
+newQueue.dequeue();
+newQueue.peek();
+newQueue.isEmpty();
+console.log(newQueue.size());
 
 module.exports = Queue;
