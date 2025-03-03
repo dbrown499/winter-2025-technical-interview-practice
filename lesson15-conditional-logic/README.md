@@ -8,6 +8,9 @@ Daily Lesson Structure
 
 "Why do we use conditional statements in programming?" Post the question in Slack, have everyone submit their answers simultaneously after a 5-minute timer.
 
+Answer: We use conditional statements in programming to control the flow of a program based on certain conditions. They allow the program to make decisions and execute different code depending on whether specific criteria are met. This is essential for handling various scenarios and making programs dynamic, responsive, and more intelligent.
+
+
 ## Topic Overview (20 minutes):
 
 Quick review of conditional logic: Review if, else, and else if statements.
