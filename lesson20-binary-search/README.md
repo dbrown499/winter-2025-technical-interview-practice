@@ -14,6 +14,8 @@ To get started, let's refresh our memory on some fundamental concepts:
 
 **Question**: Explain in your own words what a binary search algorithm is and why it is more efficient than a linear search in a sorted array.
 
+A binary search algorithm is a method used to quickly find a target value in a sorted array by repeatedly dividing the search range in half. It is more efficient becauee it takes the time complexity from O(n) to O(log n).
+
 ## Lecture Content (20 minutes)
 
 **Introduction to Binary Search**

@@ -8,6 +8,8 @@ Create a simple diagram of a family tree. How would you represent this with code
 
 In your own words, what are the advantages of encapsulating code in classes rather than just having the code in the global scope? Write a short response.
 
+Classes are reusable and different instances could be inplemented without discrupting an entire program.
+
 ## Lecture Content (20 minutes)
 
 1. What Are Nodes?

@@ -6,6 +6,10 @@
 
 - Question: Explain in your own words why the two-pointer technique is more efficient than a nested loop approach for solving problems like finding a pair that sums to a specific target in a sorted array.
 
+The two-pointer technique is more efficient than a nested loop because it uses two pointers to traverse the array from both ends which eliminates redundant pairings. This reduces the time complexity to O(n) instead of O(n²).
+
+ 
+
 ## Lecture Content (20 minutes)
 
 Detailed Explanation of Technique Variations:

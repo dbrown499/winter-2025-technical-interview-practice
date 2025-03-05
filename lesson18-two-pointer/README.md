@@ -8,6 +8,8 @@ Check out the warmup.js.
 
 How could you reverse an array in place in n/2 time? Would this be linear or quadratic time?
 
+To reverse an array in place in O(n/2) time, you would use two pointers: one at the beginning and one at the end of the array. Swap the elements at these pointers and move the pointers toward each other until they meet in the middle.
+
 ## Lecture Content (20 minutes)
 
 ### Introduction to Two Pointers:

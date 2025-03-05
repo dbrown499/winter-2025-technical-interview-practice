@@ -29,6 +29,8 @@ function minSubArrayLen(s, nums) {
 
 Question: What could potentially go wrong with the while loop in this function? Consider edge cases where nums may contain zeros or negative numbers.
 
+If nums has zeros or negative numbers, shrinking the window might not actually decrease sum like we expect. That could mess things up by either making the loop run longer than it should or skipping over valid subarrays.
+
 ## Lecture Content (20 minutes)
 Advanced Concepts in Sliding Window Technique
 

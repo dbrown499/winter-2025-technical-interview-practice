@@ -9,6 +9,7 @@ Write a basic for loop that sums numbers in an array.
 ## Written Question (5 minutes)
 
 What's wrong with this code for finding a subarray sum?
+The function is only looking at the cumulative sums of elements up to a certain point in an array instead of calculating the sum of each subarray individually. Plus, target is not defined.
 
 ```javascript
 function findSum(arr) {

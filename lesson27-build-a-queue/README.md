@@ -6,6 +6,8 @@
 
 Describe a real-world scenario where a queue would be a suitable data structure. Explain why FIFO is important in that context.
 
+A real-world scenario where a queue is suitable is in a customer service line at a bank. Customers are served in the order they arrive, meaning the first customer to enter the queue is the first to be served.
+
 ## Lecture Content (20 minutes)
 
 1. What is a Queue?
