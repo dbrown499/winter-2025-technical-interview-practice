@@ -57,4 +57,34 @@
  * 1 <= quantities[i] <= 10^5
  */
 
-module.exports = function minimizedMaximum(n, m, quantities) {};
+
+function minimizedMaximum(n, m, quantities) {
+  let left = 1, right = Math.max(...quantities);
+
+  while (left < right) {
+    let mid = Math.floor((left + right) / 2);
+    let storesNeeded = 0;
+
+    // Calculate the total number of stores required if no store gets more than `mid` products
+    for (let qty of quantities) {
+      storesNeeded += Math.ceil(qty / mid); // The number of stores needed for this product
+      if (storesNeeded > m) {
+        break; // No need to continue if we've already exceeded the store limit
+      }
+    }
+
+    if (storesNeeded <= m) {
+      right = mid; // If we can distribute the products with `mid`, try a smaller max value
+    } else {
+      left = mid + 1; // If not, we need to increase the max value
+    }
+  }
+
+  return left; // After the binary search loop, left will be the minimized max value
+}
+
+// console.log(minimizedMaximum(7, 3, [10, 5, 8, 7, 4, 2, 6])); // Output: 10
+// console.log(minimizedMaximum(5, 5, [10, 10, 10, 10, 10])); // Output: 10
+// console.log(minimizedMaximum(3, 2, [7, 9, 5])); // Output: 9
+
+module.exports = minimizedMaximum;
