@@ -1,6 +1,6 @@
 const binarySearch = require("./problem");
 
-test("Returns correct index for [[1, 3, 5, 7, 9, 11] and target 5", () => {
+test("Returns correct index for [1, 3, 5, 7, 9, 11] and target 5", () => {
   expect(binarySearch([1, 3, 5, 7, 9, 11], 5)).toEqual(2);
 });
 
