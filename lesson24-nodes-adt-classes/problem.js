@@ -4,6 +4,19 @@
 
 // head will not be null;
 
-module.exports = function reverseNodes(head){
-    // code goes here
-};
+function reverseNodes(head) {
+  let prev = null;
+  let current = head;
+  let next = null;
+
+  while (current) {
+    next = current.next; // Store next node
+    current.next = prev; // Reverse the link
+    prev = current; // Move prev forward
+    current = next; // Move current forward
+  }
+
+  return prev; // New head
+}
+
+module.exports = reverseNodes;
