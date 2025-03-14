@@ -13,6 +13,22 @@
  * Input: "Hello, World!"
  * Output: false
  */
-function isValidPalindrome(str) {}
+function isValidPalindrome(str) {
+    let regex = /[a-zA-Z0-9]+/g;
+    let newStr = str.match(regex).join("").toLowerCase();
+    let right = newStr.length - 1;
+
+    for (let left = 0; left <= (right/2) ; left++){
+        if(newStr[left] !== newStr[right]){
+            return false;
+        }
+        right--;
+    }
+
+    return true;
+}
+console.log(isValidPalindrome("Madam, in Eden, I'm Adam."));
+console.log(isValidPalindrome("cat"));
+console.log(isValidPalindrome("racecar"));
 
 module.exports = isValidPalindrome;

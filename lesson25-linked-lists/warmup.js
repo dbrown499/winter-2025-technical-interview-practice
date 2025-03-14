@@ -84,3 +84,6 @@ const books = [
 
 
 // Given an array of books, return an array with books that are fiction.
+
+const bookTitles = books.map(book => book.title);
+console.log(bookTitles);

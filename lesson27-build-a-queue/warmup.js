@@ -23,4 +23,12 @@
 // Incrementing by one gives 9 + 1 = 10.
 // Thus, the result should be [1,0].
  
+function plusOne(digits) {
+    return (Number(digits.join("")) + 1).toString().split("").map(Number);
+}
+
+// **Test Cases**
+console.log(plusOne([1,2,3])); // Output: [1,2,4]
+console.log(plusOne([9,9,9])); // Output: [1,0,0,0]
+console.log(plusOne([1,2,3,4,5,6,7,8,9,0])); // Output: [1,2,3,4,5,6,7,8,9,1]
 

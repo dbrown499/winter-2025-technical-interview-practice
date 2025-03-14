@@ -8,6 +8,9 @@ To start, let's review the basics of binary search and discuss how it can be ada
 
 Question: How can binary search be applied to problems beyond simple array searches? Consider scenarios where you're looking for an optimal point or condition rather than a specific value.
 
+Binary search can be applied to problems like finding an optimal point or condition by defining a search space (e.g., time, cost, or configuration) and using binary search to narrow down the optimal solution. Examples include minimizing/maximizing a function, searching for the smallest feasible value in a constraint-based problem, or optimizing parameters in machine learning.
+
+
 ## Lecture Content (20 minutes)
 
 ### Extending Binary Search

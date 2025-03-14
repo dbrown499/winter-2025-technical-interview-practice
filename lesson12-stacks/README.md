@@ -4,6 +4,7 @@
 
 Can you think of any examples from your life where the last thing in was the first thing out? Describe something like this.
 
+
 ## Lecture Content (20 minutes)
 
 ### What is a Stack?

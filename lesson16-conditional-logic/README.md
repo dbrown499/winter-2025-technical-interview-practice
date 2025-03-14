@@ -6,6 +6,8 @@
 
 "What are nested conditionals and when might you use them?" Everyone posts their answer simultaneously after a 5-minute timer.
 
+Nested conditionals are if, else if, or else statements inside one another. This allows for more complex decision-making processes where multiple conditions must be checked in a certain order.
+
 ## Topic Overview (20 minutes):
 
 ### Nested Conditionals:

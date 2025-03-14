@@ -1,7 +1,13 @@
 # Lesson 13: Queues
 
 ## Warm-up (10 minutes)
+
+## Written Question (5 minutes)
 Explain the key difference between a stack and a queue. Why might you choose one data structure over the other?
+
+Stacks- The last element to be pushed into the array is the first element to be popped out. Stacks is good for undo/redo features and for backtracking certain steps in order.
+
+Queues- You add elements to the back of the array but remove from the front. Queues is good for processing elements in the order they are added.
 
 ## Lecture Content (20 minutes)
 

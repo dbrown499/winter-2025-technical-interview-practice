@@ -9,7 +9,9 @@
 
 ## Written Question (5 minutes)
 
-A linked list is an ordered set of data elements, each containing a link to its successorWhy might a linked list be more useful than an array in certain situations?
+A linked list is an ordered set of data elements, each containing a link to its successor. Why might a linked list be more useful than an array in certain situations?
+
+If you have program that relies on order, a linked list might be more useful than an array when you need to frequently insert or remove elements, especially in the middle of the list. Linked lists don't require shifting elements like arrays do, which can be more efficient when maintaining the order of elements. 
 
 ## Lecture Content (20 minutes)
 
