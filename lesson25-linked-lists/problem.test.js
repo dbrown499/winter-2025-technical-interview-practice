@@ -29,13 +29,13 @@ test("Pop returns undefined if the list is empty", () => {
 });
 test("Shift removes the head of the list and returns the new head", () => {
   const list = createLinkedList();
-  expect(list.shift().data).toEqual(1);
+  expect(list.shift().data).toEqual(2);
 });
 test("Shift returns undefined if the list is empty", () => {
   const emptyList = new LinkedList();
   expect(emptyList.shift()).toEqual(undefined);
 });
-test("Unshift takes a value and adds the new node to the list as the new node", () => {
+test("Unshift takes a value and adds the new node to the list as the head node", () => {
   const list = createLinkedList();
   expect(list.unshift(11).head.data).toEqual(11);
 });
