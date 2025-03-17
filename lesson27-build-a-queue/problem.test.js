@@ -20,7 +20,7 @@ test("Dequeue removes the head and returns the new head", () => {
   queue.enqueue(1);
   queue.enqueue(2);
   queue.enqueue(3);
-  expect(queue.dequeue().head).toEqual(2);
+  expect(queue.dequeue().head.value).toEqual(2);
   expect(queue.length).toEqual(2);
 });
 test("Dequeue makes the head and tail is null if the length is now 0", () => {
@@ -42,7 +42,7 @@ test("Clear removes all nodes from the queue", () => {
   queue.enqueue(1);
   queue.enqueue(2);
   queue.enqueue(3);
-  expect(queue.clear()).toEqual(0);
+  expect(queue.clear().length).toEqual(0);
   expect(queue.head).toEqual(null);
   expect(queue.tail).toEqual(null);
 });
