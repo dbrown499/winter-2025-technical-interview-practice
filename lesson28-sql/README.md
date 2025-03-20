@@ -5,6 +5,12 @@
 Syntax Problem (10 minutes): Write a SQL query to find all unique countries from the customers table.
 Written Question (5 minutes): What is the purpose of the GROUP BY clause in SQL?
 
+The GROUP BY clause allows the manipulation of data within a given schema by grouping rows with shared values. It helps retrieve data in specified categories, often using aggregate functions like COUNT(), SUM(), and AVG() to summarize information.
+
+✅ GROUP BY groups rows based on common values.
+✅ It works alongside aggregate functions.
+✅ It helps categorize and summarize data.
+
 ## Topic (20 minutes)
 
 ### Lecture: Introduction to SQL and Basic Queries
