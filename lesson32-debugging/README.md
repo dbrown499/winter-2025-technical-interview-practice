@@ -5,6 +5,8 @@
 - Syntax Problem (10 minutes): Debug a short JavaScript function that incorrectly uses variable scopes.
 - Written Question (5 minutes): Describe the importance of reading error messages when debugging.
 
+Reading error messages when debugging is crucial because they help pinpoint the problem and identify its location in the code.
+
 ## Topic (20 minutes)
 
 ### Lecture: Introduction to Debugging Techniques
