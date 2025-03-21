@@ -10,11 +10,16 @@
 
 - How do unit tests help in the debugging process?
 
+Unit tests help in the debugging process by catching errors early, ensuring code behaves as expected, and isolating problems to specific parts. They act as a safety net, letting you know when changes break functionality, making debugging more efficient.
+
 ### Topic (20 minutes)
 
 ## Lecture: Advanced Debugging Tools and Techniques
 
 - Using console tools effectively
+
+Leverage console.log(), console.error(), console.table(), and console.time() to track values, errors, and performance.
+Use console.trace() to trace the execution path and identify where issues occur.
 
 - Advanced breakpoints (conditional, hit count)
 - Memory leak identification and resolution
