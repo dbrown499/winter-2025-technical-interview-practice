@@ -5,8 +5,16 @@
 ### Written Question
 Backtracking is a technique that builds on recursion to explore multiple potential solutions. In your own words, explain:
 1. What backtracking is.
+
+Backtracking is a technique where you build a solution step by step, undoing the last step when you hit a dead-end, and trying a different option until you find the correct solution.
+
 2. How it differs from a simple recursive function.
+
+While simple recursion divides the problem into smaller parts without revisiting previous steps, backtracking explores all possibilities by retracing steps and trying new paths when a solution fails.
+
 3. Why it is helpful in solving complex problems like puzzles, mazes, or combinatorial tasks.
+
+Backtracking helps solve complex problems like puzzles and mazes by exploring every potential solution, cutting off invalid paths early, and ensuring all options are considered until the correct one is found.
 
 ## Lecture Content (20 minutes)
 

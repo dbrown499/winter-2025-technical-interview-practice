@@ -89,6 +89,14 @@
     // Otherwise, return an empty array.
     return success ? path : [];
   }
+
+  const maze = [
+    [0, 0, 1],
+    [0, 0, 0],
+    [1, 0, 0]
+];
+
+console.log(solveMaze(maze));
   
   module.exports = solveMaze;
   
