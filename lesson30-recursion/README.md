@@ -5,6 +5,10 @@
 ### Written Question
 In your own words, explain the difference between a recursive solution and an iterative solution. Provide a simple example where recursion might be more intuitive than iteration.
 
+While iteration explicitly updates and stores values in variables, recursion implicitly stores data on the call stack, which can lead to higher memory usage.
+
+Recursion is like following a trail of breadcrumbs in a maze—you take a step forward (calling the function), leaving a breadcrumb behind (storing the previous state). If you hit a dead end (base case), you backtrack by following the breadcrumbs (returning values) until you reach the start again with the final solution. Iteration, on the other hand, is like rolling up a ball of yarn as you walk through the maze—each step builds directly on the last without needing to backtrack, making it more memory-efficient but sometimes harder to visualize for naturally nested problems like tree structures or divide-and-conquer algorithms.
+
 ## Lecture Content (20 minutes)
 
 ### What is Recursion?
@@ -29,6 +33,13 @@ Recursion occurs when a function calls itself in order to solve a problem. It of
 ### Disadvantages of Recursion
 - Overhead of multiple function calls.
 - Can lead to stack overflow if not carefully implemented or if the input is too large.
+
+### When to Use Recursion
+- Tree and graph traversal: Naturally recursive structures like binary trees benefit from recursive solutions.
+
+- Divide-and-conquer algorithms: Recursion is fundamental in algorithms like Merge Sort and Quick Sort.
+
+- Backtracking problems: Such as solving mazes, generating permutations, or Sudoku solving.
 
 ## Problem Solving (35 minutes)
 
